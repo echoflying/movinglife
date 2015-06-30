@@ -32,18 +32,24 @@ a life occupy a slot and try to move around inside the world. DNA will control t
 
 **split:** a life can split to or creats a new life
 
-
-# Structure and Design
 ## activity definition
+
 ### move:
 input: DNA / environment
 output: move or not, direction of move
 
-split:
-DNA exchange:
-merge:
+### split:
+input: DNA / environment
+output: split or not, DNA of new life
 
-## DNA: 
+### DNA exchange:
+input: DNA / other life's DNA
+output: DNA exchange or not, new DNA
+
+### merge:
+input: DNA / other life
+output: merge or not, request to merge to other life
+
 
 # inviatation
 Welcome to join the project.
