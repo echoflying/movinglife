@@ -37,20 +37,20 @@ a life occupy a slot and try to move around inside the world. DNA will control t
 ## activity definition
 
 ### move:
-input: DNA / environment
-output: move or not, direction of move
+- input: DNA / environment
+- output: move or not, direction of move
 
 ### split:
-input: DNA / environment
-output: split or not, DNA of new life
+- input: DNA / environment
+- output: split or not, DNA of new life
 
 ### DNA exchange:
-input: DNA / other life's DNA
-output: DNA exchange or not, new DNA
+- input: DNA / other life's DNA
+- output: DNA exchange or not, new DNA
 
 ### merge:
-input: DNA / other life
-output: merge or not, request to merge to other life
+- input: DNA / other life
+- output: merge or not, request to merge to other life
 
 
 # inviatation
