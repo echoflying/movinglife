@@ -10,8 +10,7 @@ A 2 dimention world with lifes in each slot. The life can move based on it's DNA
 
 **world:** The world is a N x N 2 dimention platform, a slot can contain one or zero life.
 
-**environment: **
-a slot can get it's environment, which refer the life near and the boundary of the world. 
+**environment:**a slot can get it's environment, which refer the life near and the boundary of the world. 
 
 **life:** 
 a life occupy a slot and try to move around inside the world. DNA will control the activity and interact with the world. The basic activity is move, merge, DNA exchange, split.
