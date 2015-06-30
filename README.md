@@ -8,13 +8,16 @@ Create a life simulate environment just for fun
 # Concept and Definition
 A 2 dimention world with lifes in each slot. The life can move based on it's DNA and environment.
 
-## world: The world is a N x N 2 dimention platform, a slot can contain one or zero life.
+## world: 
+The world is a N x N 2 dimention platform, a slot can contain one or zero life.
 
-## environment: a slot can get it's environment, which refer the life near and the boundary of the world. 
+## environment: 
+a slot can get it's environment, which refer the life near and the boundary of the world. 
 
-## life: a life occupy a slot and try to move around inside the world. DNA will control the activity and interact with the world. The basic activity is move, merge, DNA exchange, split.
+## life: 
+a life occupy a slot and try to move around inside the world. DNA will control the activity and interact with the world. The basic activity is move, merge, DNA exchange, split.
 
-## DNA: a life has DAN which deside the movement and the way exchange DNA or merge with other life.
+*DNA:* a life has DAN which deside the movement and the way exchange DNA or merge with other life.
 
 ## move: a life can move to a spare slot nearby, up, right, down, left, up-right, right-down, left-down, up-left
 +---+---+---+
