@@ -8,16 +8,18 @@ Create a life simulate environment just for fun
 ## Concept and Definition
 A 2 dimention world with lifes in each slot. The life can move based on it's DNA and environment.
 
-**world:**  The world is a N x N 2 dimention platform, a slot can contain one or zero life.
+- **world:**  The world is a N x N 2 dimention platform, a slot can contain one or zero life.
 
-**environment:**  a slot can get it's environment, which refer the life near and the boundary of the world. 
+- **environment:**  a slot can get it's environment, which refer the life near and the boundary of the world. 
 
-**life:** 
+- **life:** 
 a life occupy a slot and try to move around inside the world. DNA will control the activity and interact with the world. The basic activity is move, merge, DNA exchange, split.
 
-**DNA:** a life has DAN which deside the movement and the way exchange DNA or merge with other life.
+- **DNA:** 
+  a life has DAN which deside the movement and the way exchange DNA or merge with other life.
 
-**move:** a life can move to a spare slot nearby, up, right, down, left, up-right, right-down, left-down, up-left
+- **move:** 
+  a life can move to a spare slot nearby, up, right, down, left, up-right, right-down, left-down, up-left
 +---+---+---+
 | 8 | 1 | 2 |
 +---+---+---+
@@ -26,11 +28,11 @@ a life occupy a slot and try to move around inside the world. DNA will control t
 | 6 | 5 | 4 |
 +---+---+---+
 
-**merge:** a live can merge to another life and distory itself
+- **merge:** a live can merge to another life and distory itself
 
-**DNA exchange:** a life can exchange information about other life and change it's own DNA
+- **DNA exchange:** a life can exchange information about other life and change it's own DNA
 
-**split:** a life can split to or creats a new life
+- **split:** a life can split to or creats a new life
 
 ## activity definition
 
